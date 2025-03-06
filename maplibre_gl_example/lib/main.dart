@@ -25,6 +25,7 @@ import 'line.dart';
 import 'local_style.dart';
 import 'map_ui.dart';
 import 'move_camera.dart';
+import 'offline_mb_tiles.dart';
 import 'offline_regions.dart';
 import 'page.dart';
 import 'place_batch.dart';
@@ -36,6 +37,7 @@ import 'scrolling_map.dart';
 import 'sources.dart';
 
 final List<ExamplePage> _allPages = <ExamplePage>[
+  const OfflineMBTilesPage(),
   const MapUiPage(),
   const FullMapPage(),
   const LocalizedMapPage(),
